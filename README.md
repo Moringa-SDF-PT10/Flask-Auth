@@ -1,5 +1,4 @@
 # Flask Authentication System
-
 A robust Flask-based authentication system with JWT support, role-based access control, and blog post management functionality.
 
 ## Features
@@ -47,7 +46,7 @@ A robust Flask-based authentication system with JWT support, role-based access c
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone git@github.com:Moringa-SDF-PT10/Flask-Auth.git
 cd Flask-Auth
 ```
 
