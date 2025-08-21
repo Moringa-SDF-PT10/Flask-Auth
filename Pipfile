@@ -11,6 +11,7 @@ flask-restful = "*"
 flask-bcrypt = "*"
 python-dotenv = "*"
 flask-migrate = "*"
+gunicorn = "*"
 
 [dev-packages]
 
