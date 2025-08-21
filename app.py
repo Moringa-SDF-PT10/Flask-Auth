@@ -23,6 +23,7 @@ app.config["JWT_COOKIE_SECURE"] = False          # True if HTTPS only
 app.config["JWT_COOKIE_SAMESITE"] = "Lax"        # can be Strict/None
 app.config["JWT_COOKIE_CSRF_PROTECT"] = False 
 
+port = int(os.getenv("PORT", 8080))
 
 db.init_app(app)
 migrate = Migrate(app, db)
@@ -30,4 +31,4 @@ migrate = Migrate(app, db)
 from views import *
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=port)
